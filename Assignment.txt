@@ -1,0 +1,36 @@
+Timing Events/Methods Exercise...
+A. Inside the “AsyncJS” folder create a Folder called “TimingEventsExercise”
+B. Inside the “TimingEventsExercise” folder create a index.html file
+C. Inside the “TimingEventsExercise” folder create a style.css file
+D. Inside the “TimingEventsExercise” folder create a app.js file
+E. Inside the index.html file create the HTML boilerplate and set the title of the page to “Timing Events Exercise”
+F. Link the style.css and app.js files to the index.html file
+G. Paste the following HTML into your index.html file after the opening body tag…
+  <h1>setTimeout</h1>
+  <div id="first"></div>
+  <h1>setTimeout Nesting</h1>
+  <div id="timeout-nesting"></div>
+  <h1>setInterval Countdown</h1>
+  <div id="countdown"></div>
+  <button>STOP</button>
+
+H. Paste the following CSS into your empty style.css file
+
+div {
+  border: 5px solid black;
+  padding: 2px;
+}
+
+button {
+  font-size: 40px;
+  margin-top: 20px;
+}
+I. Start your Live Server (NOTE: Must be in the index.html file to do this)
+J. Open your app.js file and complete the following...1. Use a setTimeout method to have "Hi" displayed as a p element/tag inside the div with the id of "first" 1 second after the page loads.
+2. Use nested setTimeout methods to complete the following: Have the text of "One" displayed as a p element/tag inside the div with the id of "timeout-nesting" 2 seconds after the page loads. Also, below the "One" p element/tag, have the text of "Two" also displayed as a p element/tag inside the same div 3 seconds after the page loads.
+3a.  Use a setInterval method to display a counter in the console that starts at 1 and continues going up one number at a time every second.
+3b. Have the "STOP" button set up so that when it is pressed the setInterval method created in 3a will stop continuously running (HINT: Need to create a variable).
+
+BONUS
+
+B-4. Using setInterval, display a countdown clock as a p element/tag inside the div with the id of "countdown". Have the countdown clock start at 2 minutes and count down. The countdown clock should display in the following format (Example: 2:00 to start and 0:00 at end). ALSO, when the countdown timer hits zero have it display a message saying… "TIME IS UP" instead of the clock (AKA 0:00).
